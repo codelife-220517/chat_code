@@ -1,0 +1,8 @@
+syntax = "proto2";
+message testinfo
+{ 
+required string name = 1; 
+required string time = 2; 
+required string date = 3; 
+required string ip = 4; 
+}
